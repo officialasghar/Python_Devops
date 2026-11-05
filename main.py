@@ -6,4 +6,4 @@ app = FastAPI()
 
 @app.get("/", response_class=PlainTextResponse)
 def server_status() -> str:
-    return "Server is running"
+    return "Server is running V1"
